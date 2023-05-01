@@ -1,0 +1,35 @@
+@media screen and (min-width: 1px) and (max-width: 480px) {
+
+  header {
+    padding: 1rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background: royalblue;
+    border-radius: .50rem;
+  }
+  
+  nav {
+    background: white;
+    color: #0e0e0e;
+    border-radius: 10rem;
+  }
+  
+  nav ul {
+    padding: 0.5rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    isolation: isolate;
+  }
+  
+  nav ul li a {
+    color: #1c1c1c;
+    text-decoration: none;
+    padding: 1.5rem;
+    font-weight: 700;
+  }
+
+}
